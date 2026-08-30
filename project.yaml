@@ -1,0 +1,78 @@
+# .project metadata for Cilium
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Add adopters list (ADOPTERS.md)
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "cilium"
+name: "Cilium"
+description: "eBPF-based Networking, Observability, and Security"
+type: "project"
+project_lead: "aditighag" # TODO: AUTO-DETECTED — please verify
+slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+  - name: "#dev-hubble"
+    primary: true
+  - name: "#hubble"
+  - name: "#pwru"
+  - name: "#id1"
+  - name: "#development"
+  - name: "#special-interest-groups"
+
+maturity_log:
+  - phase: "graduated"
+    date: "2021-10-13T00:00:00Z"
+    issue: "https://github.com/cncf/sandbox/issues/236" # TODO: AUTO-DETECTED — please verify
+
+repositories: # TODO: AUTO-DETECTED primary — please verify
+  - url: "https://github.com/cilium/cilium"
+    primary: true
+    # tags: [core, sig-apps] # Optional
+
+website: "https://cilium.io/"
+
+artwork: "https://landscape.cncf.io/logos/cilium.svg"
+
+# TODO: Add ADOPTERS.md if your project tracks adopters
+# adopters:
+#   path: "https://github.com/cilium/cilium/blob/main/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "cilium/cilium"
+
+social:
+  twitter: "https://twitter.com/ciliumproject"
+
+security:
+  policy:
+    path: "https://github.com/cilium/cilium/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/cilium/cilium/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/cilium/cilium/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/cilium/cilium/blob/main/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/cilium/cilium/blob/main/LICENSE"
+  identity_type:
+    has_dco: true # AUTO-DETECTED — please verify
+    has_cla: false # AUTO-DETECTED — please verify
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/cilium/cilium/blob/main/README.md"
+
+landscape:
+  category: "Runtime"
+  subcategory: "Cloud Native Network"
+
+# CLOMonitor Score: 93/100
+# Documentation: 99 | License: 100 | Best Practices: 85 | Security: 82
