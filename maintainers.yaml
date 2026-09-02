@@ -68,6 +68,22 @@ maintainers:
       #     - reviewer-handle
       #
       # Former maintainers (remove this section if not applicable):
-      # - name: "emeritus"
-      #   managed: false
-      #   members: []
+      - name: "emeritus"
+        managed: false
+        members:
+          - b3a-dev
+          - bmcustodio
+          - danwent
+          - eloycoto
+          - jibi
+          - ianvernon
+          - errordeveloper
+          - lmb
+          - vadorovsky
+          - sharlns
+          - raybejjani
+          - tgraf
+          - twpayne
+          - Weil0ng
+          - anfernee
+          - lzang
