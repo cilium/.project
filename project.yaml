@@ -1,7 +1,6 @@
 # .project metadata for Cilium
 # Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
 
-# TODO: Add adopters list (ADOPTERS.md)
 # TODO: Add package_managers if distributed via registries
 
 schema_version: "1.0.0"
@@ -9,41 +8,77 @@ slug: "cilium"
 name: "Cilium"
 description: "eBPF-based Networking, Observability, and Security"
 type: "project"
-project_lead: "aditighag" # TODO: AUTO-DETECTED — please verify
-slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
-  - name: "#dev-hubble"
+project_lead:
+  - "aanm"
+  - "joestringer"
+slack_channels: # Note: this is subset of the channels available at cilium.slack.com
+  - workspace: "cilium"
+    name: "#general"
     primary: true
-  - name: "#hubble"
-  - name: "#pwru"
-  - name: "#id1"
-  - name: "#development"
-  - name: "#special-interest-groups"
+  - workspace: "cilium"
+    name: "#certifications"
+  - workspace: "cilium"
+    name: "#cilium-website"
+  - workspace: "cilium"
+    name: "#development"
+  - workspace: "cilium"
+    name: "#docs"
+  - workspace: "cilium"
+    name: "#ebpf-go"
+  - workspace: "cilium"
+    name: "#hubble"
+  - workspace: "cilium"
+    name: "#kubernetes"
+  - workspace: "cilium"
+    name: "#launchpad"
+  - workspace: "cilium"
+    name: "#networkpolicy"
+  - workspace: "cilium"
+    name: "#pwru"
+  - workspace: "cilium"
+    name: "#sig-community"
+  - workspace: "cilium"
+    name: "#sig-policy"
+  - workspace: "cilium"
+    name: "#tetragon"
+  - workspace: "cilium"
+    name: "#triage"
 
 maturity_log:
   - phase: "graduated"
+    date: "2023-10-11T00:00:00Z"
+    issue: "https://github.com/cncf/toc/pull/952"
+  - phase: "incubating"
     date: "2021-10-13T00:00:00Z"
-    issue: "https://github.com/cncf/sandbox/issues/236" # TODO: AUTO-DETECTED — please verify
+    issue: "https://github.com/cncf/sandbox/issues/236"
 
-repositories: # TODO: AUTO-DETECTED primary — please verify
+repositories: # See https://github.com/cilium/community/blob/main/REPOSITORIES.md
   - url: "https://github.com/cilium/cilium"
     primary: true
+  - url: "https://github.com/cilium/cilium-cli"
+  - url: "https://github.com/cilium/cilium.io"
+  - url: "https://github.com/cilium/ebpf"
+  - url: "https://github.com/cilium/hubble"
+  - url: "https://github.com/cilium/hubble-ui"
+  - url: "https://github.com/cilium/proxy"
+  - url: "https://github.com/cilium/pwru"
+  - url: "https://github.com/cilium/tetragon"
     # tags: [core, sig-apps] # Optional
 
 website: "https://cilium.io/"
 
 artwork: "https://landscape.cncf.io/logos/cilium.svg"
 
-# TODO: Add ADOPTERS.md if your project tracks adopters
-# adopters:
-#   path: "https://github.com/cilium/cilium/blob/main/ADOPTERS.md"
+adopters:
+  path: "https://github.com/cilium/cilium/blob/main/USERS.md"
 
-
-# TODO: Add package manager identifiers if your project is distributed via registries
-# package_managers:
-#   docker: "cilium/cilium"
+package_managers:
+  docker: "quay.io/cilium/cilium"
 
 social:
   twitter: "https://twitter.com/ciliumproject"
+  bluesky: "https://bsky.app/profile/cilium.io"
+  linkedin: "https://www.linkedin.com/company/cilium/"
 
 security:
   policy:
@@ -68,7 +103,7 @@ legal:
 
 documentation:
   readme:
-    path: "https://github.com/cilium/cilium/blob/main/README.md"
+    path: "https://github.com/cilium"
 
 landscape:
   category: "Runtime"
