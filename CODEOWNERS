@@ -1,3 +1,2 @@
 # CODEOWNERS for .project metadata repository
-# Changes to project metadata require maintainer review.
-* @aditighag @kaworu @aanm @MrFreezeex @xmulligan @squeed @chancez @christarazi @borkmann @bimmlerd @fristonio @dlapcevic @dylandreimerink @pippolo84 @jibi @glibsm @HadrienPatte @hemanthmalla @jrajahalme @joestringer @jrfastab @julianwiedmann @joamaki @kkourt @lbernail @lizrice @ldelossa @nebril @mtardy @marseel @mhofstetter @giorio94 @brb @michi-covalent @nathanjsweet @youngnick @nbusseneau @nirmoy @pchaigno @qmonnet @rolinh @gandro @sayboras @ti-mo @tklauser @tommyp1ckles @ungureanuvladvictor @YutaroHayakawa 
+* @cilium/cilium-maintainers @cilium/community
