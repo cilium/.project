@@ -76,7 +76,6 @@ package_managers:
   docker: "quay.io/cilium/cilium"
 
 social:
-  twitter: "https://twitter.com/ciliumproject"
   bluesky: "https://bsky.app/profile/cilium.io"
   linkedin: "https://www.linkedin.com/company/cilium/"
 
