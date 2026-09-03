@@ -45,12 +45,12 @@ slack_channels: # Note: this is subset of the channels available at cilium.slack
     name: "#triage"
 
 maturity_log:
-  - phase: "graduated"
-    date: "2023-10-11T00:00:00Z"
-    issue: "https://github.com/cncf/toc/pull/952"
   - phase: "incubating"
     date: "2021-10-13T00:00:00Z"
     issue: "https://github.com/cncf/sandbox/issues/236"
+  - phase: "graduated"
+    date: "2023-10-11T00:00:00Z"
+    issue: "https://github.com/cncf/toc/pull/952"
 
 repositories: # See https://github.com/cilium/community/blob/main/REPOSITORIES.md
   - url: "https://github.com/cilium/cilium"
