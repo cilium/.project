@@ -111,8 +111,8 @@ legal:
   license:
     path: "https://github.com/cilium/cilium/blob/main/LICENSE"
   identity_type:
-    has_dco: true # AUTO-DETECTED — please verify
-    has_cla: false # AUTO-DETECTED — please verify
+    has_dco: true
+    has_cla: false
     dco_url:
       path: "https://developercertificate.org/"
 
