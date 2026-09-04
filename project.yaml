@@ -1,8 +1,6 @@
 # .project metadata for Cilium
 # Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
 
-# TODO: Add package_managers if distributed via registries
-
 schema_version: "1.0.0"
 slug: "cilium"
 name: "Cilium"
