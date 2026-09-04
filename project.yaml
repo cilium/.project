@@ -65,7 +65,7 @@ repositories: # See https://github.com/cilium/community/blob/main/REPOSITORIES.m
 
 website: "https://cilium.io/"
 
-artwork: "https://landscape.cncf.io/logos/cilium.svg"
+artwork: "https://raw.githubusercontent.com/cncf/artwork/refs/heads/main/projects/cilium/stacked/color/cilium_stacked-color.svg"
 
 adopters:
   path: "https://github.com/cilium/cilium/blob/main/USERS.md"
